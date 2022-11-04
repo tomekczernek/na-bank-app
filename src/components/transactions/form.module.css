@@ -1,0 +1,56 @@
+.container {
+    flex-grow: 1;
+    padding-left: 1rem;
+}
+
+.boxText {
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputError {
+    align-self: flex-end;
+    font-size: 0.75rem;
+    color: var(--red)
+}
+ 
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.input > label{
+    min-width: 30%;
+}
+
+.input > input{
+    flex-grow: 1;
+}
+
+.send {
+    margin: 0.5rem 0;
+    align-self: flex-end;
+    width: min-content;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        order: 1;
+        padding: 0;
+    }
+
+    .send {
+        margin-top: 1rem;
+        width: 100%;
+    }
+}

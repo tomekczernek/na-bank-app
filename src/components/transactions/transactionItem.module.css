@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px;
+    margin-bottom: 0.5rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.3rem;
+}
+
+.boxText {
+    font-weight: 700;
+}
+
+.boxTextDescription {
+    font-size: 0.9rem;
+}
+
+.greenText {
+    color: var(--grean);
+}
+
+.redText {
+    color: var(--red);
+}
+
+.remove {
+    width: min-content;
+    margin: 0.25rem 0;
+}
